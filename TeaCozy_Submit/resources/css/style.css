@@ -1,0 +1,122 @@
+body {
+  font-family: helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+
+nav a {
+  color: seashell;
+  margin-right: 30px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid seashell;
+  height: 69px;
+  width: 100%;
+  position: fixed;
+  align-items: center;
+  color: seashell;
+  background-color: black;
+  top: 0;
+}
+
+.mission {
+  padding-top: 69px;
+  background: url(./../media/img-mission-background.jpg);
+  height: 700px;
+  width: 1200px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.missionText {
+  background: black;
+  margin: 0;
+  padding: 5px;
+}
+
+.teaType span {
+  font-weight: bold;
+}
+
+.featuredTea {
+  width: 1000px;
+  margin: 75px auto;
+}
+
+.teaType img {
+  height: 200px;
+  width: 300px;
+  margin-bottom: 10px;
+}
+
+.teaType {
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+}
+
+.teaTypeBoxes {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.locations {
+  height: 500px;
+  width: 1200px;
+  background-image: url(./../media/img-locations-background.jpg);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.locationbox {
+  display: flex;
+  flex-direction: column;
+  background: black;
+  width: 300px;
+  height: 300px;
+  opacity: 1;
+  justify-content: space-around;
+}
+
+.locationBoxes {
+  display: inline-flex;
+  margin: 0 auto;
+}
+
+.locationbox h3 {
+  margin: 0;
+}
+
+.locations h2 {
+  margin-bottom: 15px;
+  margin-top: 0;
+}
+
+.footer {
+  height: 200px;
+}
+
+#logo {
+  height: 50px;
+  padding-left: 10px;
+}
+
+#eastBayside {
+  margin: auto 40px;
+}
+
+#copyright {
+  text-align: left;
+  margin-left: 20px;
+}
